@@ -41,6 +41,16 @@ void ReplacementSeats (int [,] matrix)
         }
 }
 
+//{
+// int firstRow = 0;
+// int lastRow = matrix.GetLendth(0) - 1;
+// for (int j = 0; j < matrix. Getlength(1); j++)
+// {
+//       int temp = matrix[firstRow, j];   
+//       matrix[firstRow, j] = matrix[lastRow, j];
+//       matrix[lastRow, j] = temp;
+// }
+// }
 int[,] createMatrixRndInt = CreateMatrixRndInt(3, 4, -100, 100);
 PrintMatrix(createMatrixRndInt);
 Console.WriteLine();
